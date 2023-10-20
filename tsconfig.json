@@ -1,11 +1,24 @@
 {
   "compilerOptions": {
     "target": "es2016",
+    // Especifica a versão do ECMAScript que o código TypeScript será transpilado. Neste caso, ele será transpilado para ES2016 (também conhecido como ES7).
+
     "module": "commonjs",
+    // Especifica o sistema de módulo que será usado no código transpilado. "commonjs" é o sistema de módulos usado no Node.js.
+
     "outDir": "./dist",
+    // Especifica o diretório onde os arquivos transpilados serão salvos. Neste caso, os arquivos resultantes serão colocados na pasta "dist" no diretório raiz do projeto.
+
     "esModuleInterop": true,
+    // Habilita a geração de código adicional para suporte de importação de módulos ECMAScript, permitindo, por exemplo, usar importações como `import x from "module-name"` em vez de `import * as x from "module-name"`.
+
     "forceConsistentCasingInFileNames": true,
+    // Força os nomes dos arquivos a terem consistência de maiúsculas e minúsculas. Isso pode prevenir problemas, especialmente em sistemas de arquivos sensíveis à caixa, como no Linux.
+
     "strict": true,
+    // Habilita uma série de opções de verificação de tipo mais rigorosas, tornando o tipo de verificação do TypeScript mais estrito. É uma combinação de várias opções de verificação de tipo.
+
     "skipLibCheck": true
+    // Faz o compilador pular a verificação de tipos para arquivos de declaração (arquivos .d.ts). Isso pode acelerar a compilação, mas pode perder alguns erros de tipo em bibliotecas externas.
   }
 }
