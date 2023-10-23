@@ -1,0 +1,24 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranielm/api-getaway.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranielm/api-getaway/issues"
+  },
+  "homepage": "https://github.com/ranielm/api-getaway#readme",
+  "dependencies": {
+    "sqlite": "^5.0.1",
+    "sqlite3": "^5.1.6"
+  }
+}
